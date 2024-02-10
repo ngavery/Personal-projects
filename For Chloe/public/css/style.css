@@ -1,0 +1,123 @@
+/* Prompt */
+
+.prompt {
+    margin-top: 200px;
+}
+
+input {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Main body */
+body {
+    background-color: pink;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: row;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+#no-button {
+    margin: 0 10px;
+    color: white;
+    background-color: rgb(255, 0, 98);
+    height:75px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-weight: bolder;
+}
+#no-button:hover {
+    background-color:rgb(224, 0, 86);
+}
+
+#no-button p {
+    margin: 0;
+    object-fit: contain;
+}
+
+#yes-button {
+    margin: 0 10px;
+    color: white;
+    border: none;
+    background-color: rgb(0, 146, 90);
+    cursor: pointer;
+    height:75px;
+    width: 150px;
+    border-radius: 4px;
+    font-weight: bolder;
+}
+
+#yes-button:hover {
+    background-color: rgb(0, 128, 79);
+
+}
+
+#yes-button p {
+    margin: 0;
+    object-fit: contain;
+}
+
+/* Make responsive for mobile */
+@media (max-width: 768px) {
+    body {
+        padding: 0 20px;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 40px;
+    text-align: center;
+}
+
+.message {
+    display: none;
+}
+
+.banner-gif {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.banner-gif img {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
