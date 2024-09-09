@@ -75,6 +75,7 @@ public class Calculator implements ActionListener{
         panel.setBounds(50,100,300,300);
         panel.setLayout(new GridLayout(4,4,10,10));
 
+        // Adding all buttons to JPanel
         panel.add(numberButtons[1]);
         panel.add(numberButtons[2]);
         panel.add(numberButtons[3]);
@@ -92,7 +93,6 @@ public class Calculator implements ActionListener{
         panel.add(equButton);
         panel.add(divButton);
 
-
         frame.add(panel);
         frame.add(delButton);
         frame.add(clrButton);
@@ -106,9 +106,12 @@ public class Calculator implements ActionListener{
 
     }
     @Override
+    // Implemented method that adds functionality to buttons
     public void actionPerformed(ActionEvent e) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'actionPerformed'");
+
+        for(int i=0; i < 10 ; i++) {
+            if(e.getSource)
+        }
     }
 
 }
