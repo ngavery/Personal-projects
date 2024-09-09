@@ -34,7 +34,7 @@ public class Calculator implements ActionListener{
         textfield.setFont(myFont);
         textfield.setEditable(false);
 
-        // INstantiating all buttons 
+        // Instantiating all buttons 
         addButton = new JButton("+");
         subButton = new JButton("-");
         mulButton = new JButton("*");
@@ -70,6 +70,30 @@ public class Calculator implements ActionListener{
         delButton.setBounds(50, 430, 145, 50);
         clrButton.setBounds(50, 430, 145, 50);
 
+        // Instantiating JPanel
+        panel = new JPanel();
+        panel.setBounds(50,100,300,300);
+        panel.setLayout(new GridLayout(4,4,10,10));
+
+        panel.add(numberButtons[1]);
+        panel.add(numberButtons[2]);
+        panel.add(numberButtons[3]);
+        panel.add(addButton);
+        panel.add(numberButtons[4]);
+        panel.add(numberButtons[5]);
+        panel.add(numberButtons[6]);
+        panel.add(subButton);
+        panel.add(numberButtons[7]);
+        panel.add(numberButtons[8]);
+        panel.add(numberButtons[9]);
+        panel.add(mulButton);
+        panel.add(decButton);
+        panel.add(numberButtons[0]);
+        panel.add(equButton);
+        panel.add(divButton);
+
+
+        frame.add(panel);
         frame.add(delButton);
         frame.add(clrButton);
         frame.add(textfield);
@@ -80,6 +104,11 @@ public class Calculator implements ActionListener{
 
         Calculator calc = new Calculator();
 
+    }
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'actionPerformed'");
     }
 
 }
