@@ -57,6 +57,10 @@ h2 {
     color:#40e0bd; 
 }
 
+.software {
+    color: rgb(247, 69, 178);
+}
+
 p {
     color: white;
     font-size: 2em;
