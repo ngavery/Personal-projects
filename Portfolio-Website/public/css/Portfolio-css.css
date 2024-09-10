@@ -1,10 +1,10 @@
 /* styles.css */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Wix Madefor Text', sans-serif;  
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background-color: #333;
+    background-color: #100a27;
 }
 
 .navbar {
@@ -36,26 +36,34 @@ body {
     background-color: #575757;
 }
 
-/*header*/
+/*Title section*/
 .header-container {
-    margin-top: 300px;
+    margin-top: 250px;
     align-items: center;
     margin-left: 240px;
 }
 h1 {
-    display: inline-block;
-    margin: 0 10px;
+    color: white;
+    font-size: 6em;
+    margin-bottom: 0px;
+}
+h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
     color: white;
     font-size: 6em;
 }
 .avery {
-    color:rgb(219, 194, 155);
+    color:#40e0bd; 
 }
 
 p {
     color: white;
-    margin-left: 250px;
     font-size: 2em;
 }
 
-
+/*About section*/
+.about {
+    margin-top: 500px;
+    text-align: center;
+}
