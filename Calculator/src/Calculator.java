@@ -36,6 +36,7 @@ public class Calculator implements ActionListener{
         textfield.setEditable(false);
         textfield.setBackground(Color.black);
         textfield.setForeground(Color.white);
+        textfield.setBorder(null);
 
         // Instantiating all buttons 
         addButton = new JButton("+");
